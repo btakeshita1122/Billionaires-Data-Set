@@ -1,0 +1,79 @@
+<!--
+Brandon Takeshita
+11/09/2026
+SDEV 117
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Dataset</title>
+
+    <!-- styles for the page... -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <main id="left-column">
+        <h1>Billionaires Dataset</h1>
+        <p>Shows information on Billionares, building off the Forbes Worlds 
+           Billionaires lists from 1996-2014.
+           There are <span id="size"></span> elements in this dataset.
+        </p>
+        <div id="record">
+            <section>
+                <label>Name:</label>
+                <span id="name">Value</span>
+            </section>
+            <section>
+                <label>Year:</label>
+                <span id="year">Value</span>
+            </section>
+            <section>
+                <label>Rank:</label>
+                <span id="rank">Value</span>
+            </section>
+            <section>
+                <label>Net Worth:</label>
+                <span id="wealth">Value</span>
+            </section>
+            <section>
+                <label>Company:</label>
+                <span id="company">Value</span>
+            </section>
+            <section>
+                <label>Age:</label>
+                <span id="age">Value</span>
+            </section>
+
+            <section id="button">
+                <button id="previous" class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> previous </span>
+                </button>
+                <button id="next" class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Next </span>
+                </button>
+            </section>
+        </div>
+    </main>
+    <aside id="right-column">
+        <h2>Here are some interesting facts in my dataset!</h2>
+        <ul>
+            <li id="fact1"></li>
+            <li id="fact2"></li>
+            <li id="fact3"></li>
+        </ul>
+    </aside>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/script.js"></script>
+    
+    
+</body>
+</html>
